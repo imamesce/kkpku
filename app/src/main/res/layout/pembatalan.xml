@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp"
+    android:layout_margin="4dp"
+    android:layout_height="220dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textpesannama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/ic_namaorder"
+            android:drawablePadding="10dp"
+            android:text="namawisata"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/keterangan" />
+
+        <TextView
+            android:id="@+id/idwaktu"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_baseline_access_time_24"
+            android:drawablePadding="10dp"
+            android:text="desember-22-2222 jam 03.03.03 wib"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orderketeranganwisata" />
+
+        <TextView
+            android:id="@+id/orderketeranganwisata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="7dp"
+            android:text="Paket Wisata yy bali selama 1 hari,sudah termasuk kendaraan,makan,dan penginapan...Untuk request lain nya/pertanyaan.. silahkan hubungi admin"
+            app:layout_constraintBottom_toTopOf="@+id/idwaktu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.441"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textpesannama" />
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="200dp"
+
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="17dp"
+            android:drawableLeft="@drawable/ic_namaorder"
+            android:drawablePadding="10dp"
+            android:text="MenungguhiPembayaran"
+            android:textColor="@color/design_default_color_error"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hargawisata"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:text="123456789"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textpesannama"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_notifications_active_24"
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:text="Rp."
+            app:layout_constraintBottom_toBottomOf="@+id/hargawisata"
+            app:layout_constraintEnd_toStartOf="@+id/hargawisata"
+            app:layout_constraintTop_toTopOf="@+id/hargawisata" />
+
+        <TextView
+            android:textColor="@color/design_default_color_error"
+
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:text="Klik Untuk Konfirmasi Pembatalan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idwaktu"
+            tools:layout_editor_absoluteX="118dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

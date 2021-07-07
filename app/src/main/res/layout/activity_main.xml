@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layoutfalse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Maaf anda tidak diizinkan masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="KELUAR APLIKASI"
+            android:id="@+id/buttontinggalkanaplkasi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pesananpelanggan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lihat Pesanan Pelanggan"
+                android:padding="5dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pesananberhasil"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lihat Pesanan Berhasil"
+                android:padding="5dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tambahdatawisata"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambah Data Wisata"
+                android:padding="5dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/konfirmasipembatalan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konfirmasi Pembatalan"
+                android:padding="5dp"/>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/datasemuauser"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Semua User"
+                android:padding="5dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/datasemuaadmin"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Semua admin"
+                android:padding="5dp"/>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+
+            android:layout_marginTop="60dp"
+            android:id="@+id/gagalbayar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/Logoutapp"
+                android:textColor="@color/design_default_color_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Logout Aplikasi" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AdminKkp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string-array name="number">
+        <item>tersedia</item>
+        <item>tidak tersedia</item>
+
+
+    </string-array>
+
+    <string-array name="tempatwisata">
+        <item>Pilih tempat</item>
+        <item>jakarta</item>
+        <item>malang</item>
+        <item>bandung</item>
+        <item>yogyakarta</item>
+        <item>banten</item>
+        <item>sukabumi</item>
+        <item>sumedang</item>
+        <item>bali</item>
+        <item>jawa timur</item>
+        <item>jawa barat</item>
+
+    </string-array>
+</resources>
